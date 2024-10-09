@@ -1,0 +1,10 @@
+
+.uni-forms {
+	width: 90%;
+	/* height: 232px; */
+	margin: auto;
+}
+.uni-forms-item__label {
+	width: 60px !important;
+}
+

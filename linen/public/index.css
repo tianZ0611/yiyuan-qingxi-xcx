@@ -1,0 +1,101 @@
+.bgColor2B7DD7 {
+	background: #2B7DD7;
+}
+
+.wid100 {
+	width: 100%;
+}
+
+.hei100 {
+	height: 100vh;
+}
+
+.fontSize28 {
+	font-size: 28px;
+}
+
+.colorfff {
+	color: #fff;
+}
+
+.textAlgin {
+	text-align: center;
+}
+
+.padd20 {
+	padding: 20px 0px;
+}
+
+.logoImg {
+	width: 89px;
+	height: 89px;
+}
+
+.disPaly {
+	display: flex;
+	justify-content: center;
+	/* 水平居中 */
+	align-items: center;
+	margin-top: 15px;
+}
+
+.example {
+	width: 93%;
+	height: 205px;
+	margin: auto;
+	background: #fff;
+	border-radius: 15px;
+}
+
+.marT85 {
+	margin-top: 85px;
+}
+
+.marB30 {
+	margin-bottom: 30px;
+}
+
+.fontSize20 {
+	font-size: 20px;
+}
+
+.hei45 {
+	width: 93%;
+	margin: auto;
+	height: 45px;
+	/* background: red; */
+}
+
+.floatLeft {
+	float: left;
+}
+
+.jgImg {
+	width: 30px;
+	height: 30px;
+}
+
+.floatRight {
+	float: right;
+}
+
+.padd30 {
+	padding: 0px 50px;
+}
+
+.posRelative {
+	position: relative;
+}
+
+.posAbsolute {
+	position: absolute;
+	top: 10px;
+}
+
+.lineHeight {
+	line-height: 45px;
+}
+
+.marL30 {
+	margin-left: 40px;
+}
