@@ -1,6 +1,6 @@
 {
     "name" : "linen",
-    "appid" : "__UNI__7D73009",
+    "appid" : "__UNI__CC596F7",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -41,9 +41,29 @@
                 ]
             },
             /* ios打包配置 */
-            "ios" : {},
+            "ios" : {
+                "dSYMs" : false
+            },
             /* SDK配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {
+                "ad" : {}
+            }
+        },
+        "nativePlugins" : {
+            "seuic" : {
+                "__plugin_info__" : {
+                    "name" : "seuic插件",
+                    "description" : "示例插件",
+                    "platforms" : "Android",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            }
         }
     },
     /* 快应用特有相关 */

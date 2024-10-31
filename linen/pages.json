@@ -5,6 +5,158 @@
 			"style": {
 				"navigationBarTitleText": "登录"
 			}
+		},
+		{
+			"path": "pages/scan/scan",
+			"style": {
+				"navigationBarTitleText": "扫描数量"
+			}
+		},
+		{
+			"path": "pages/homePage/homePage",
+			"style": {
+				"navigationBarTitleText": "院内布草管理工作台"
+			}
+		},
+		{
+			"path": "pages/recordsQuery/recordsQuery",
+			"style": {
+				"navigationBarTitleText": "记录查询"
+			}
+		},
+		{
+			"path": "pages/gcpage/getStatistics/getStatistics",
+			"style": {
+				"navigationBarTitleText": "领用统计"
+			}
+		},
+		{
+			"path": "pages/receive/receive",
+			"style": {
+				"navigationBarTitleText": "布草领用"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "记录"
+			}
+		},
+		{
+			"path": "pages/breakage/breakage",
+			"style": {
+				"navigationBarTitleText": "报损"
+			}
+		},
+		{
+			"path": "pages/receiveClassify/receiveClassify",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/guide/guide",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/scanningCopy/scanningCopy",
+			"style": {
+				"navigationBarTitleText": "收污扫描"
+			}
+		},
+		{
+			"path": "pages/inventory/inventory",
+			"style": {
+				"navigationBarTitleText": "库存"
+			}
+		},
+		{
+			"path": "pages/inventoryone/inventoryone",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/cleanout/cleanout",
+			"style": {
+				"navigationBarTitleText": "清洗进度"
+			}
+		},
+		{
+			"path": "pages/getRecord/getRecord",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/gcpage/gcpage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/gcpage/gcGrant/gcGrant",
+			"style": {
+				"navigationBarTitleText": "领用校验"
+			}
+		},
+		{
+			"path": "pages/gcpage/huiShouList/huiShouList",
+			"style": {
+				"navigationBarTitleText": "收污列表"
+			}
+		},
+		{
+			"path": "pages/gcpage/huiShouDetails/huiShouDetails",
+			"style": {
+				"navigationBarTitleText": "收污校验"
+			}
+		},
+		{
+			"path": "pages/qingXiList/qingXiList",
+			"style": {
+				"navigationBarTitleText": "清洗列表"
+			}
+		},
+		{
+			"path": "pages/gcpage/xiYiList/xiYiList",
+			"style": {
+				"navigationBarTitleText": "清洗列表"
+			}
+		},
+		{
+			"path": "pages/gcpage/xiYiStep/xiYiStep",
+			"style": {
+				"navigationBarTitleText": "清洗步骤"
+			}
+		},
+		{
+			"path": "pages/gcpage/changRemand/changRemand",
+			"style": {
+				"navigationBarTitleText": "送净列表"
+			}
+		},
+		{
+			"path" : "pages/gcpage/gcRemandContrast/gcRemandContrast",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/yyRemandContrast/yyRemandContrast",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"globalStyle": {
@@ -13,5 +165,36 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+
+		"color": "#7A7E83",
+		"selectedColor": "#2B7DD7",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/homePage/homePage",
+				"text": "首页",
+				"iconPath": "static/gongzuotai/shouye.png",
+				"selectedIconPath": "static/gongzuotai/shouye.png"
+			}, {
+				"pagePath": "pages/record/record",
+				"text": "记录",
+				"iconPath": "static/gongzuotai/jilu.png",
+				"selectedIconPath": "static/gongzuotai/jilu.png"
+			}, {
+				"pagePath": "pages/breakage/breakage",
+				"text": "报损",
+				"iconPath": "static/gongzuotai/baos.png",
+				"selectedIconPath": "static/gongzuotai/baos.png"
+			}
+			// ,{
+			// 	"pagePath": "pages/my/my",
+			// 	"text": "我的",
+			// 	"iconPath": "static/gongzuotai/my.png",
+			// 	"selectedIconPath": "static/gongzuotai/my.png"
+			// }
+		]
+	}
 }

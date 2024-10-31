@@ -1,0 +1,22 @@
+{
+	"name": "seuic插件",
+	"id": "seuic",
+	"version": "1.2.5",
+	"description": "示例插件",
+	"_dp_type":"nativeplugin",
+	"_dp_nativeplugin":{
+		"android": {
+			"hooksClass": "",
+			"plugins": [
+				{
+					"type": "module",
+					"name": "seuic",
+					"class":"com.seuic.astoaar.HelloWorld"	
+						}
+			],
+			"integrateType": "aar",
+			"abis": [],
+			"minSdkVersion" :19
+		}
+	}
+}

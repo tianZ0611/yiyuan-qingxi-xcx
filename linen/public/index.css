@@ -7,7 +7,7 @@
 }
 
 .hei100 {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .fontSize28 {
@@ -45,6 +45,10 @@
 	margin: auto;
 	background: #fff;
 	border-radius: 15px;
+}
+
+.marT80 {
+	margin-top: 80px;
 }
 
 .marT85 {

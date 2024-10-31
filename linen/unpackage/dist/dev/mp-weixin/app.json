@@ -1,6 +1,28 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/scan/scan",
+    "pages/homePage/homePage",
+    "pages/recordsQuery/recordsQuery",
+    "pages/gcpage/getStatistics/getStatistics",
+    "pages/receive/receive",
+    "pages/my/my",
+    "pages/record/record",
+    "pages/breakage/breakage",
+    "pages/receiveClassify/receiveClassify",
+    "pages/guide/guide",
+    "pages/scanningCopy/scanningCopy",
+    "pages/inventory/inventory",
+    "pages/inventoryone/inventoryone",
+    "pages/cleanout/cleanout",
+    "pages/getRecord/getRecord",
+    "pages/gcpage/gcpage",
+    "pages/gcpage/gcGrant/gcGrant",
+    "pages/gcpage/huiShouList/huiShouList",
+    "pages/gcpage/huiShouDetails/huiShouDetails",
+    "pages/qingXiList/qingXiList",
+    "pages/gcpage/xiYiList/xiYiList",
+    "pages/gcpage/xiYiStep/xiYiStep"
   ],
   "subPackages": [],
   "window": {
@@ -8,6 +30,39 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#2B7DD7",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "首页",
+        "iconPath": "static/gongzuotai/shouye.png",
+        "selectedIconPath": "static/gongzuotai/shouye.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "记录",
+        "iconPath": "static/gongzuotai/jilu.png",
+        "selectedIconPath": "static/gongzuotai/jilu.png"
+      },
+      {
+        "pagePath": "pages/breakage/breakage",
+        "text": "报损",
+        "iconPath": "static/gongzuotai/baos.png",
+        "selectedIconPath": "static/gongzuotai/baos.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/gongzuotai/my.png",
+        "selectedIconPath": "static/gongzuotai/my.png"
+      }
+    ]
   },
   "usingComponents": {}
 }

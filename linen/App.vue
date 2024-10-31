@@ -13,5 +13,7 @@
 </script>
 
 <style>
+	@import url('public/qingxi.css');
+	@import url('public/index.css');
 	/*每个页面公共css */
 </style>

@@ -1,0 +1,500 @@
+.box {
+	background-color: #F3F4F6;
+	padding: 10rpx;
+	min-height: 100vh;
+	width: 730rpx;
+}
+
+.box1 {
+	background-color: #F3F4F6;
+	min-height: 100vh;
+	width: 750rpx;
+}
+
+
+.wh40 {
+	width: 40rpx;
+	height: 40rpx;
+}
+
+.h30 {
+	height: 60rpx;
+	line-height: 60rpx;
+}
+
+.h33 {
+	height: 66rpx;
+}
+
+.h100 {
+	height: 100rpx;
+}
+
+.wh56 {
+	width: 56rpx;
+	height: 56rpx;
+}
+
+.wh60 {
+	width: 60rpx;
+	height: 60rpx;
+}
+
+.wh80 {
+	width: 80rpx;
+	height: 80rpx;
+}
+
+.wh90 {
+	width: 90rpx;
+	height: 90rpx;
+}
+
+.wh35 {
+	width: 70rpx;
+	height: 70rpx;
+}
+
+.wh94 {
+	width: 188rpx;
+	height: 188rpx;
+}
+
+.wh113 {
+	width: 266rpx;
+	height: 266rpx;
+}
+
+.w60 {
+	width: 120rpx !important;
+}
+
+.w90 {
+	width: 180rpx !important;
+}
+
+.w232 {
+	width: 464rpx;
+}
+
+.w750 {
+	width: 1500rpx;
+}
+
+.w145h44 {
+	width: 290rpx;
+	height: 88rpx;
+}
+
+.w130h44 {
+	width: 260rpx;
+	height: 88rpx;
+}
+
+.w80h34 {
+	width: 160rpx;
+	height: 68rpx;
+}
+
+.w145h100 {
+	width: 290rpx;
+	height: 100rpx;
+}
+
+.w445h140 {
+	width: 620rpx;
+	height: 140rpx;
+}
+
+.w222h44 {
+	width: 444rpx;
+	height: 88rpx;
+}
+
+.w45 {
+	width: 90rpx;
+}
+
+.w730 {
+	width: 730rpx;
+}
+
+.w750h56 {
+	width: 750rpx;
+	height: 56rpx;
+}
+
+.w690 {
+	width: 690rpx;
+}
+
+.w730h240 {
+	width: 730rpx;
+	height: 240rpx;
+}
+
+.w160h60 {
+	width: 160rpx;
+	height: 60rpx;
+}
+
+
+.disf {
+	display: flex;
+}
+
+.disb {
+	display: block;
+}
+
+/* dingwei */
+.posr {
+	position: relative;
+}
+
+.posat20r20 {
+	position: absolute;
+	top: 40rpx;
+	right: 40rpx;
+}
+
+.posab20r0 {
+	position: absolute;
+	bottom: 20rpx;
+	right: 0rpx;
+}
+
+.posab0r20 {
+	position: absolute;
+	bottom: 0rpx;
+	right: 40rpx;
+}
+
+.posab10r20 {
+	position: absolute;
+	bottom: 20rpx;
+	right: 40rpx;
+}
+
+.posab20r20 {
+	position: absolute;
+	bottom: 40rpx;
+	right: 40rpx;
+}
+
+.posab10r40 {
+	position: absolute;
+	bottom: 20rpx;
+	right: 80rpx;
+}
+
+/* 外边距 */
+.mart5 {
+	margin-top: 10rpx;
+}
+
+.mart6 {
+	margin-top: 12rpx;
+}
+
+.mart8 {
+	margin-top: 16rpx;
+}
+
+.mart10 {
+	margin-top: 20rpx;
+}
+
+.mart15 {
+	margin-top: 30rpx;
+}
+
+.mart70 {
+	margin-top: 140rpx;
+}
+
+.mart20 {
+	margin-top: 40rpx;
+}
+
+.mart25 {
+	margin-top: 50rpx;
+}
+
+.mart40 {
+	margin-top: 80rpx;
+}
+
+.marl5 {
+	margin-left: 10rpx;
+}
+
+.marl8 {
+	margin-left: 16rpx;
+}
+
+.marl9 {
+	margin-left: 18rpx;
+}
+
+.marl10 {
+	margin-left: 20rpx;
+}
+
+.marl20 {
+	margin-left: 40rpx;
+}
+
+.marl30 {
+	margin-left: 60rpx;
+}
+
+.marr10 {
+	margin-right: 20rpx;
+}
+
+.marr30 {
+	margin-right: 60rpx;
+}
+
+.marl12 {
+	margin-left: 24rpx;
+}
+
+.marl133 {
+	margin-left: 133rpx;
+}
+
+.marl153 {
+	margin-left: 153rpx;
+}
+
+.marl180 {
+	margin-left: 180rpx;
+}
+
+.marl232 {
+	margin-left: 232rpx;
+}
+
+.marb8 {
+	margin-bottom: 16rpx;
+}
+
+.marb10 {
+	margin-bottom: 20rpx;
+}
+
+.marb20 {
+	margin-bottom: 40rpx;
+}
+
+.marb40 {
+	margin-bottom: 80rpx;
+}
+
+/* 居中 */
+.textjz {
+	text-align: center;
+}
+
+.mar0auto {
+	margin: 0 auto;
+}
+
+/* 文字上下居中 */
+.linh34 {
+	line-height: 68rpx;
+}
+
+.linh44 {
+	line-height: 88rpx;
+}
+
+.linh100 {
+	line-height: 100rpx;
+}
+
+.linh140 {
+	line-height: 140rpx;
+}
+
+/* 内边距 */
+.padt5 {
+	padding-top: 10rpx;
+}
+
+.padt10 {
+	padding-top: 20rpx;
+}
+
+.padt20 {
+	padding-top: 40rpx;
+}
+
+.padr10 {
+	padding-right: 20rpx;
+}
+
+.padl10 {
+	padding-left: 20rpx;
+}
+
+.padl20 {
+	padding-left: 40rpx;
+}
+
+.padb10 {
+	padding-bottom: 20rpx;
+}
+
+.padb20 {
+	padding-bottom: 40rpx;
+}
+
+.padb40 {
+	padding-bottom: 80rpx;
+}
+
+/* 文字颜色 */
+.colorbai {
+	color: #ffffff;
+}
+
+.colorlan {
+	color: #2B7DD7;
+}
+
+.colorhong {
+	color: #f01010;
+}
+
+.colorhuang {
+	color: #F6B419;
+}
+
+.colorhui {
+	color: #9D9D9D;
+}
+
+/* 文字大小 */
+.fs12 {
+	font-size: 12px;
+}
+
+.fs14 {
+	font-size: 14px;
+}
+
+.fs16 {
+	font-size: 16px;
+}
+
+.fs18 {
+	font-size: 18px;
+}
+
+.fs36 {
+	font-size: 36px;
+}
+
+.fs20 {
+	font-size: 20px;
+}
+
+/*  */
+.borb1lan {
+	border: 2rpx solid #2B7DD7;
+}
+
+/* 字体 */
+.fw {
+	font-weight: bold;
+}
+
+.fww {
+	flex-wrap: wrap;
+}
+
+/* 背景颜色 */
+.bcbai {
+	background-color: #ffffff;
+}
+
+.bchuang {
+	background-color: #F6B419;
+}
+
+.bchui {
+	background-color: #9D9D9D;
+}
+
+.bccheng {
+	background-color: #ff7735;
+}
+
+.bcchong {
+	background-color: #f01010;
+}
+
+.bclan {
+	background-color: #2B7DD7;
+}
+
+/* 水平滚动 */
+.scrollable {
+	width: 100%;
+	/* 或其他固定宽度 */
+	overflow-x: auto;
+	/* 允许水平滚动 */
+	white-space: nowrap;
+	/* 对于文本内容，防止自动换行 */
+	/* 其他样式 */
+}
+
+/* 背景图 */
+.element {
+	background-image: url('static/gongzuotai/shaomiao1.png');
+	background-size: cover;
+	/* 图片覆盖整个容器 */
+	background-position: center;
+	/* 图片居中 */
+	background-repeat: no-repeat;
+	/* 不重复图片 */
+	opacity: 0.4;
+}
+
+/* 圆角 */
+
+.borr3 {
+	border-radius: 6rpx;
+}
+
+.borr8 {
+	border-radius: 16rpx;
+}
+
+/* 平均分配周围空间 */
+.jussa {
+	justify-content: space-around;
+}
+
+/* 弹性定位 */
+.posfb80 {
+	position: fixed;
+	bottom: 80rpx;
+}
+
+.posfb50 {
+	position: fixed;
+	bottom: 50rpx;
+}
+
+/* 阴影 */
+.boxcha2 {
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.boxcha4 {
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
